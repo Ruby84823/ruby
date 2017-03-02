@@ -1,0 +1,1 @@
+Drupal.locale = { 'strings': {"":{"Please wait...":"\u8acb\u7a0d\u7b49...","The response failed verification so will not be processed.":"\u9a57\u8b49\u5931\u6557\uff0c\u4e2d\u6b62\u7a0b\u5e8f\u3002"}} };

@@ -1,0 +1,28 @@
+<?php
+
+function hs_base_menu_block_blocks() {
+  return array(
+  'country_menu_block_1' => array(
+    'parent'      => "menu-country-menu:0",
+    'title_link'  => 0,
+    'admin_title' => '國家',
+    'level'       => 1,
+    'follow'      => '0',
+    'depth'       => 0,
+    'expanded'    => 0,
+    'sort'        => 0,
+  ),
+  'question_menu_block_1' => array(
+    'parent'      => "menu-question-menu:0",
+    'title_link'  => 0,
+    'admin_title' => '常見問題',
+    'level'       => 1,
+    'follow'      => '0',
+    'depth'       => 0,
+    'expanded'    => 0,
+    'sort'        => 0,
+  ),
+  );
+}
+
+?>

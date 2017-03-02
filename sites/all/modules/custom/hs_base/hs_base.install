@@ -1,0 +1,95 @@
+<?php
+
+function hs_base_install() {
+  module_enable(array('menu_html','features','strongarm','diff','entityreference','views','panels',),true);
+}
+
+function hs_base_update_7001()
+{
+    module_enable(array('views_content','ckeditor','views_ui','menu_block','taxonomy_menu','pathauto','taxonomy_access_fix','bean_admin_ui'),true);
+    module_enable(array('context_ui','context','ds','ds_ui','ds_forms','ds_extras','jquery_update','better_formats','manualcrop'),true);
+}
+function hs_base_update_7002()
+{
+    module_enable(array('path_breadcrumbs','path_breadcrumbs_ui'),true);
+}
+function hs_base_update_7003()
+{
+    module_enable(array('locale'),true);
+    module_disable(array('overlay','dashboard'),TRUE);
+}
+function hs_base_update_7004()
+{
+    module_enable(array('chosen','sim_news','page_manager','sim_main','smart_trim','entityqueue'),true);
+    variable_set('site_frontpage', 'main');
+}
+/**
+ * better_exposed_filters
+ */
+function hs_base_update_7005()
+{
+    module_enable(array('better_exposed_filters'),true);
+}
+/**
+ * sim_entityqueue
+ */
+function hs_base_update_7006()
+{
+    module_enable(array('statistics'),true);
+}
+/**
+ * entity_menu_links
+ */
+function hs_base_update_7007()
+{
+    module_enable(array('entity_menu_links'),true);
+}
+
+ function hs_base_update_7008()
+ {
+     module_enable(array('menu_editor','back_to_top'),true);
+ }
+/**
+ * facebook_comments
+ */
+ function hs_base_update_7009()
+ {
+     module_enable(array('facebook_comments'),true);
+ }
+
+ function hs_base_update_7010()
+ {
+     module_enable(array('media','media_internet','media_ckeditor'),true);
+ }
+
+function hs_base_update_7011()
+{
+    module_enable(array('eck','views_accordion','tvi','masquerade'),true);
+}
+
+function  hs_base_update_7012()
+{
+	module_enable(array('slick','slick_ui','slick_views','slick_fields'), true);
+}
+
+function  hs_base_update_7013()
+{
+	module_enable(array('breakpoints','picture'), true);
+}
+
+function hs_base_update_7014() {
+	module_enable(array('context'), true);
+}
+
+function hs_base_update_7015()
+{
+	module_enable(array('eck','fe_block','fe_date'), true);
+}
+
+function hs_base_update_7016()
+{
+	module_enable(array('link','image_link_formatter',), true);
+}
+
+
+
